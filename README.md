@@ -30,7 +30,9 @@ Relevant Data needed:
 - energy usage
 - GDP
 - emission rates
-- 
+1.Access to electricity
+2.Foreign direct investment net in flow
+3.Invest in energy w/ private participation
 
 Exploratory Data Analysis findings and observations.
 
