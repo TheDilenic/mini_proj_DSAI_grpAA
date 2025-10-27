@@ -1,13 +1,13 @@
-To-Do Goals:
+## To-Do Goals:
 
 - finalise problem statement
 - list relevant data needed
 - find 'new' methods
-- work allocation
+- work allocation ✅
 
+---
 
-
-Problem Statement: The Energy Efficiency Gap
+### Problem Statement: The Energy Efficiency Gap
 
 Problem:
 Which countries achieve the highest energy efficiency — that is, generating high GDP with minimal energy use and emissions?
@@ -34,14 +34,24 @@ Relevant Data needed:
 Exploratory Data Analysis findings and observations.
 
 
+### Model Training
+---
 
 Methods Used(): to predict???? or measure? or detect why?
 
 Regression & Clustering + new/not in course method
 
 
+### Contributors
+---
+
 Slides & Presenting: everyone put what they do
 
 Data Prep and Analysis: Jason, Le Zhou
 
 Model Training: Winston, Zheng Cong
+
+
+
+#### References Used
+---
