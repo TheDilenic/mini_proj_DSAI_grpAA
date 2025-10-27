@@ -7,11 +7,12 @@
 
 ---
 
-### Problem Statement: The True Energy Efficiency Gap
+### Problem Statement: The Energy Efficiency Dilemma 
 
-Problem:
-Which countries achieve the highest true energy efficiency — not just in terms of GDP per energy use, but also considering emissions intensity, renewable energy share, and technological innovation?
-And how have these patterns evolved over time??
+Problem(s):
+- What determines good energy efficiency of a country?
+- How can low energy efficiency countries improve their energy efficiency?
+
 
 Approach:
 
