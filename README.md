@@ -10,8 +10,9 @@
 ### Problem Statement: The Energy Efficiency Dilemma 
 
 Problem(s):
-- What determines good energy efficiency of a country?
-- How can low energy efficiency countries improve their energy efficiency?
+- How does climate change affect standard of living?
+- And will this affect where I live?
+
 
 
 Approach:
@@ -28,12 +29,15 @@ Highlights innovation and policy success stories instead of just emission levels
 
 Relevant Data needed: 
 
-- energy usage
-- GDP
-- emission rates
-1.Access to electricity
-2.Foreign direct investment net in flow
-3.Invest in energy w/ private participation
+- monthly Income
+- retirement
+- good healthcare
+- whether place is dirty
+- how well a country is doing
+- housing
+- stability
+- 
+
 
 Exploratory Data Analysis findings and observations.
 
