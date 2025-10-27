@@ -36,7 +36,7 @@ Relevant Data needed:
 - how well a country is doing
 - housing
 - stability
-- tourism
+- immigration 
 
 
 Exploratory Data Analysis findings and observations.
