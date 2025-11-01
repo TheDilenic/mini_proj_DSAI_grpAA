@@ -1,10 +1,8 @@
 ## To-Do Goals:
 
 1. Re-adjust data variables to deal with missing data (either replace or increase weightage of other variables)
-2. Do model trainings (Linear Regression, Classification, Clustering and Anomaly Detection)
-3. find 'new' methods
-
-
+2. Do model trainings (Linear Regression, Classification, Clustering and ~~Anomaly Detection~~) ✅
+3. find 'new' methods ✅
 
 - finalise problem statement ✅
 - list relevant data needed ✅
@@ -44,7 +42,6 @@ Relevant Data needed:
 
 Exploratory Data Analysis findings and observations.
 
-
 Why did we research this?
 
 - To compare standard of living with other countries to Singapore's.
@@ -54,7 +51,6 @@ How do we find this?
 
 - Created a Standard of Living index formula from existing variables
 - Compare
-
 
 ### Model Training
 
