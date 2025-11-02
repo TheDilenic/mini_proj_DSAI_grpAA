@@ -87,11 +87,6 @@ This project combines multiple ML approaches:
 
 This project successfully combined course material with advanced ML techniques to provide actionable insights into climate change's impact on living standards.
 
-
-
-
-
-
 ## Project Architecture & Implementation Details
 
 ### 1. Data Preparation & Cleaning ([DataCleaning.ipynb](vscode-file://vscode-app/c:/Users/Winston%20James/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-browser/workbench/workbench.html))
@@ -181,7 +176,6 @@ Implementation:
 
 #### A. Data Pipeline
 
-
 # Data preparation
 
 X = clean_cc_data[feature_cols]
@@ -198,7 +192,6 @@ X_test_scaled = scaler.transform(X_test)
 gbr.fit(X_train_scaled, y_train)
 
 #### B. Evaluation Metrics
-
 
 1. R² score: Explains variance in SOL prediction
 2. RMSE: Absolute prediction error
@@ -233,7 +226,6 @@ params = {
 
 #### A. Model Performance
 
-
 - GBR R² score: ~0.7-0.8
 - Strong feature importance patterns
 - Clear country clustering
@@ -245,3 +237,121 @@ params = {
 3. Climate factors explain ~70% of SOL variance
 
 This technical implementation successfully combines multiple ML techniques to analyze climate change impact on living standards, with robust preprocessing, model selection, and evaluation methods.
+
+
+
+
+
+# Gradient Boosting Regressor for Standard of Living Analysis
+
+## Purpose & Why It Was Chosen
+
+* **Main Goal** : Predict Standard of Living (SOL) index using climate and socioeconomic indicators
+* **Why Gradient Boosting** :
+
+1. Handles complex non-linear relationships between features
+2. Strong predictive performance for continuous targets (SOL index)
+3. Built-in feature importance ranking
+4. Robust to outliers and missing data
+5. Beyond-course method that's still interpretable
+
+## How It Works
+
+1. **Data Preparation** :
+
+* Features: Numeric indicators (education, health, economic metrics)
+* Target: Computed SOL index (0-1 scale)
+* Split: 80% training, 20% testing
+* Standardization: Features scaled using StandardScaler
+
+1. **Implementation** :
+
+gbr= GradientBoostingRegressor()
+
+gbr.fit(X_train_scaled, y_train)
+
+y_pred_gbr=gbr.predict(X_test_scaled)
+
+3. **Key Results** :
+
+* Achieved highest R² score among all models
+* Low Mean Absolute Error (MAE)
+* Identified key drivers of SOL through feature importance
+
+## Insights From GBR
+
+1. **Performance** :
+
+* Outperformed simpler models (Linear Regression, Decision Trees)
+* More robust predictions than Random Forest
+* Better captured complex feature interactions
+
+1. **Feature Importance** :
+
+* Highlighted energy efficiency as key SOL predictor
+* Identified most influential socioeconomic factors
+* Validated importance of infrastructure indicators
+
+1. **Policy Implications** :
+
+* Suggests which factors to prioritize for improving SOL
+* Helps identify high-impact development areas
+* Provides quantitative backing for policy decisions
+
+## Advantages Over Other Models
+
+1. **vs Linear Regression** : Better handles non-linear relationships
+2. **vs Decision Trees** : More robust, less overfitting
+3. **vs Random Forest** : Better at capturing feature interactions
+4. **Overall** : Balance of accuracy and interpretability
+
+This analysis helped validate that energy efficiency and infrastructure development are key drivers of standard of living, while providing a reliable prediction model for future policy planning.
+
+
+# Climate Change & Living Standards Analysis (4 min script)
+
+### Introduction (30s)
+
+"Our project explores a crucial question: How does climate change affect where we live and our standard of living? To answer this, we created a Standard of Living Index (SOL) and used machine learning to understand the relationships between climate factors and quality of life."
+
+### Methods Made Simple (1min)
+
+"We used four different types of analysis:
+
+1. Linear Regression - our basic tool to see direct relationships
+2. Decision Trees - to find important turning points in the data
+3. Random Forest - combines many decision trees for better predictions
+4. Gradient Boosting - our advanced method that learns from mistakes to improve accuracy
+
+Think of Gradient Boosting like a student who learns from each mistake to get better at predictions - it was particularly useful because it could capture complex relationships between climate and living standards."
+
+### Key Findings (1min)
+
+"Our analysis revealed three important insights:
+
+1. Energy use and emissions strongly predict living standards - countries with higher energy efficiency tend to have better quality of life
+2. Climate impacts affect living standards through multiple pathways:
+   * Direct effects: Through access to water and sanitation
+   * Indirect effects: Through economic productivity and infrastructure
+3. The relationship isn't simple - while development often leads to higher emissions, we found that efficient energy use can help maintain living standards while reducing environmental impact"
+
+### Practical Implications (1min)
+
+"What does this mean for where we live?
+
+1. Climate change influences living standards through:
+   * Infrastructure quality (roads, water systems)
+   * Economic opportunities
+   * Public health systems
+2. Countries can improve living standards while addressing climate change by:
+   * Investing in energy efficiency
+   * Improving infrastructure resilience
+   * Focusing on sustainable urban development
+
+Our findings show that while climate change poses risks to living standards, smart policies focusing on efficiency and sustainability can help maintain quality of life while reducing environmental impact."
+
+### Conclusion (30s)
+
+"To answer our original question - climate change significantly affects where we live by impacting basic services, infrastructure, and economic opportunities. However, our analysis shows that through efficient energy use and smart development, we can maintain good living standards while addressing climate challenges.
+
+This gives policymakers and communities practical tools to make informed decisions about development and climate action."
