@@ -1,0 +1,59 @@
+Model Used 2:
+
+From the graph and the R^2 results, it shows that:
+
+The Linear Regression model performed the best, achieving an R² close to 0.99 with a very low MAE.
+This tells us that the relationship between development indicators and living standards is largely linear — meaning improvements in income, education, and health tend to have proportional impacts on SOL.
+
+The Decision Tree model, on the other hand, overfitted the data — it learned patterns too specific to the training set, resulting in negative R² values.
+
+The Random Forest and Gradient Boosting models performed moderately well, but not as efficiently as Linear Regression — likely because
+our dataset was relatively small and clean, where simpler models generalised better.
+
+Overall, our ML approach helps us quantify how social and environmental factors interact to shape living conditions across the world.”
+
+The models we used — particularly Gradient Boosting — go beyond the techniques covered in class, allowing us to explore more complex, non-linear methods.
+
+This helped us understand not just how each factor individually affects living standards, but how they interact — for example, how urbanisation and income together might offset the effects of climate stress in certain regions.”
+
+Why Gradient Boosting:
+    Handles complex non-linear relationships between features
+    Strong predictive performance for continuous targets (SOL index)
+
+Think of Gradient Boosting like a student who learns from each mistake to get better at predictions - it was particularly useful because it could capture complex relationships between climate and living standards."
+
+
+
+
+Insights & Achieved Objective::
+
+What does this mean for where we live?
+
+
+“To show that we achieved our objective,
+Climate change influences living standards through:
+
+Infrastructure quality (roads, water systems)
+Economic opportunities
+Public health systems
+
+However, our analysis shows that through efficient energy use and smart development, we can maintain good living standards while addressing climate challenge
+
+Countries can improve living standards while addressing climate change by:
+
+Investing in energy efficiency
+Improving infrastructure resilience
+Focusing on sustainable urban development
+
+This gives policymakers and communities practical tools to make informed decisions about development and climate action.
+
+
+
+
+
+
+Contributions:
+
+*as shown on slide*
+
+
